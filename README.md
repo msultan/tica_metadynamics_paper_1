@@ -41,7 +41,15 @@ to integrate the FES to obtain a new fes.dat file.
 
 Notes:
 - For BPTI, we are unable to provide the raw trajectories, featurizer objects, and landmark 
-pdbs due to copy right issues. 
+pdbs due to copy right issues. We note that we used the following 0-indexed locations from 
+1 ms trajectory(sub-sampled to 25ns) to generate the model. 
+	[22337, 37384, 21079, 18818, 34032,  8046, 33230,  8768, 33659,
+       21386, 40896,  6583, 24395,  1703, 33804, 24607,  8404, 33517,
+       31602, 32847, 32165, 33077, 14153, 14657, 37158, 38741, 32583,
+       23406, 35820, 28077, 28222, 17046,  2831,  9374, 33830,  7085,
+       36247, 29170, 32350, 33175, 18714, 32962, 25604, 33886, 37648,
+       22345, 28227,  5104, 37812, 32785]
+ 
 - The simulations are perfomed using openmm and plumed via the openmm plumed plugin. 
 - Please ensure that you install plumed with libmatheval support. 
 
